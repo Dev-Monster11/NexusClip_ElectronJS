@@ -1,0 +1,21 @@
+@import './variables';
+
+@import './reboot';
+
+@font-face {
+  font-family: 'NXFont';
+  src: url('./TTFirsNeue-Medium.ttf');
+}
+
+body {
+  background: $dark-1;
+  font-family: 'NXFont';
+}
+h2 {
+  font-family: 'NXFont';
+  color: $white;
+}
+
+a {
+  font-family: 'NXFont';
+}
